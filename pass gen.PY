@@ -1,3 +1,4 @@
+#this is a password generator
 import string
 import random
 
@@ -7,7 +8,7 @@ characters = list(string.ascii_letters + string.digits + "!$%#()^&@*")
 
 def generate_random_password():
 	# length of password input
-	length = int(input("Enter password length: "))
+	length = int(input("Enter password length: ")) #command generated to input length for password
 
 	# shuffling the characters
 	random.shuffle(characters)
