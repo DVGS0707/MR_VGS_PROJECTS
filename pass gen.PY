@@ -1,6 +1,7 @@
 #this is a password generator
 import string
 import random
+a=5
 length = int(input("Enter password your length\n"))#command generated to input length for password
 str_pass= string.printable #its function is to print the random combination of string integers and special characters.
 str_1 =[]
